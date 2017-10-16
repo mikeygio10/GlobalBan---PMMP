@@ -1,0 +1,15 @@
+name: GlobalBan
+version: 1.0.0[S255][S225]
+main: Syams255\Main
+api:
+[3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9]
+author: Syams255
+commands:
+    gban:
+        description: "Banned Player From The Server Using Hack or etc"
+        usage: "/gban <player> <reason>"
+        permission: gban.command
+permissions:
+ gban.command:
+  description: "Permission GlobalBan Command  / gban"
+  default: op
